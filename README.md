@@ -24,6 +24,7 @@ Mouse and Keyboard Python libraries are made by boppreh:
 Check them out respectively here:
 - https://github.com/boppreh/mouse
 - https://github.com/boppreh/keyboard
+<br>
 inputs was made by zeth
 Check it out here
 - https://github.com/zeth/inputs
