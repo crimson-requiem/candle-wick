@@ -8,6 +8,10 @@ Windows: Works completely fine.
 Linux: Requires Wine or another .exe runner, but should work also fine.
 <br>
 macOS: Probably won't work. Sorry. :(
+# Instructions
+Run the executable. Do not close it. It will be an empty command window, and that's because it has no GUI or anything similar. If your controllers disconnect, it _will_ close.
+<br>
+If followed, this should work smoothly.
 # Controls
 The controls work as follows:
 <br>
@@ -34,5 +38,5 @@ Check them out respectively here:
 <br>
 inputs was made by zeth
 <br>
-Check it out here
+Check it out here.
 - https://github.com/zeth/inputs
