@@ -40,10 +40,15 @@ while 1:
         # Scrolling, with buttons OR right joystick.
         if event.code == "BTN_NORTH" and event.state == 1:
             keyboard.send('windows+ctrl+o')
+        # Opens virtual keyboard on Windows.
         if event.code == "BTN_EAST" and event.state == 1:
             keyboard.press('alt+tab')
         if event.code == "BTN_SELECT" and event.state == 1:
             keyboard.send("enter")
         if event.code == "BTN_START" and event.state == 1:
             keyboard.send('backspace')
+        if event.code == "BTN_THUMBR" and event.state == 1:
+            mouse.click('middle')
+        if event.code == "BTN_THUMBL" and event.state == 1:
+            keyboard.send("ctrl+n")
         # Other stuff.
