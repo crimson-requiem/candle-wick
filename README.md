@@ -20,8 +20,12 @@ The controls work as follows:
 - B: Switches tabs.
 - Select/Minus: Backspace.
 - Start/Plus: Enter.
+- Left Bumper: Scroll Up
+- Right Bumper: Scroll Down
 - Left Trigger: Right click
 - Right trigger: Left click
+- L3: Open a new tab.
+- R3: Click the mouse wheel.
 # Libraries used, and credits given:
 Mouse and Keyboard Python libraries are made by boppreh:
 Check them out respectively here:
