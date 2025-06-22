@@ -19,8 +19,8 @@ The controls work as follows:
 - D-Pad: More precise, but slower cursor movement.
 - Right Joystick: Scrolling
 - Y: Opens Virtual Keyboard on Windows.
-- X: Page Up.
-- A: Page Down.
+- X: Toggles right mouse button. Press X again to release it.
+- A: Toggles left mouse button. Press A again to release it.
 - B: Switches tabs.
 - Select/Minus: Backspace.
 - Start/Plus: Enter.
@@ -31,7 +31,7 @@ The controls work as follows:
 - L3: Open a new tab.
 - R3: Click the mouse wheel.
 # Libraries used, and credits given:
-Mouse and Keyboard Python libraries are made by boppreh:
+Mouse and Keyboard libraries are made by boppreh:
 Check them out respectively here:
 - https://github.com/boppreh/mouse
 - https://github.com/boppreh/keyboard
