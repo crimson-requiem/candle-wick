@@ -2,6 +2,9 @@ import inputs
 import mouse
 import keyboard
 # importing dependencies, but pyInstaller took care of that for you
+x_check = 0
+a_check = 0
+# variables, they'll be needed later.
 while 1:
     for event in inputs.get_gamepad():
     # gets all the gamepad inputs, and 'event' was just in the documentation, so i used that.
@@ -31,13 +34,15 @@ while 1:
             mouse.wheel(delta=-1)
         if event.code == "ABS_RY":
             mouse.wheel(delta=event.state/10000)
-        if event.code == "BTN_WEST" and event.state == 1:
-            keyboard.press('Page Up')
-            keyboard.release('Page Up')
+          # Scrolling, with bumpers OR right joystick.
         if event.code == "BTN_SOUTH" and event.state == 1:
-            keyboard.press('Page Down')
-            keyboard.release('Page Down')
-        # Scrolling, with buttons OR right joystick.
+            if a_check == 0:
+                mouse.press('left')
+                a_check = 1
+            elif a_check == 1:
+                mouse.release('left')
+                a_check = 0
+        # dragging.
         if event.code == "BTN_NORTH" and event.state == 1:
             keyboard.send('windows+ctrl+o')
         # Opens virtual keyboard on Windows.
