@@ -9,7 +9,7 @@ Linux: Requires Wine or another .exe runner, but should work also fine.
 <br>
 macOS: Probably won't work. Sorry. :(
 # Instructions
-Run the executable. Do not close it. It will be an empty command window, and that's because it has no GUI or anything similar. If your controllers disconnect, it _will_ close.
+Run the executable. Do not close it. It will be an empty command window, and that's because it has no GUI or anything similar. If your controllers disconnect, ~~it _will_ close.~~ it no longer closes as of v1.3, and will instead spam with 'Unplugged. Will not work until plugged back in.' Plug it back in as soon as possible.
 <br>
 If followed, this should work smoothly.
 # Controls
