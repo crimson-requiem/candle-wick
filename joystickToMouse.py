@@ -79,5 +79,5 @@ while 1:
                 keyboard.send("ctrl+n")
             # other stuff that may or may not be useful to the average person
     except inputs.UnpluggedError:
-        print("Unplugged. Will not work until plugged back in.")
+        continue
     # makes it so that the program will not shut down IMMEDIATELY after being unplugged.
