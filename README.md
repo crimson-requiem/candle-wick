@@ -1,6 +1,8 @@
 # candle-wick
 Converts game controller inputs into mouse and keyboard inputs. My first Python project on Github!
 <br>
+It's pretty lightweight too, at around 2.3 MB. It has no fancy GUI or anything, it just runs in the background taking up very little memory as well.
+<br>
 **Platforms:**
 <br>
 Windows: Works completely fine.
